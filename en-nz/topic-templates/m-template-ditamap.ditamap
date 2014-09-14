@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is part of Koha.
+  Copyright (C) YEAR NAME or EMPLOYER NAME
+  Licensed under the GNU General Public License v3.0 or later.
+  Contributors:
+  Source of content:-->
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd" >
+<map id="id" xml:lang="en-nz">
+
+  <title></title>
+
+  <!-- Information about the information product -->
+  <topicmeta>
+    <copyright>
+      <copyryear year="" />
+      <copyrholder></copyrholder>
+    </copyright>
+  </topicmeta>
+
+  <!-- Included key definition maps -->
+  <keydef keys="" href="" type="" format="dita" />
+
+  <!-- Information product topics -->
+  <topichead navtitle="">
+    <topicref href="" type="" format="dita" />
+    <topicref href="" type="" format="dita" />
+    <topicref href="" type="" format="dita" />
+  </topichead>
+  
+  <!-- Include sub maps at the appropriate points -->
+  <mapref href="" format="ditamap" />
+
+</map>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is part of Koha.
+  Copyright (C) YEAR NAME or EMPLOYER NAME
+  Licensed under the GNU General Public License v3.0 or later.
+  Contributors:
+  Source of content:-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" xml:lang="en-nz">
+  <title></title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword></keyword>
+        <indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p></p>
+  </conbody>
+</concept>

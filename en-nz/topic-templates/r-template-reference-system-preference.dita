@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is part of Koha.
+  Copyright (C) YEAR NAME or EMPLOYER NAME
+  Licensed under the GNU General Public License v3.0 or later.
+  Contributors:
+  Source of content: -->
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="" xml:lang="en-nz">
+  <title></title>
+  <shortdesc></shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword></keyword>
+        <indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section spectitle="Path">
+      <p></p>
+    </section>
+    <section spectitle="Description">
+      <p></p>
+    </section>
+    <section spectitle="Value">
+      <p></p>
+    </section>
+    <section spectitle="Options">
+      <simpletable relcolwidth="1* 2*">
+        <sthead>
+          <stentry>Option</stentry>
+          <stentry>Description</stentry>
+        </sthead>
+        <strow>
+          <stentry></stentry>
+          <stentry></stentry>
+        </strow>
+        <strow>
+          <stentry></stentry>
+          <stentry></stentry>
+        </strow>
+        <strow>
+          <stentry></stentry>
+          <stentry></stentry>
+        </strow>
+      </simpletable>
+      <note></note>
+    </section>
+    <section spectitle="Screenshot">
+      <p></p>
+    </section>
+    <section spectitle="Examples">
+      <p></p>
+    </section>
+    <section spectitle="History notes">
+      <p></p>
+    </section>
+  </refbody>
+</reference>
