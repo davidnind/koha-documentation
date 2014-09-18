@@ -5,7 +5,7 @@ Documentation for Koha using DITA XML
 
 This is an experimental repository to:
 - Learn how to use DITA XML to create topic-based, modular, and reusable documentation.
-- Test the feasibility of using DITA to create a core set of customisable documentation for the [Koha community] (koha-community.org).
+- Test the feasibility of using DITA to create a core set of customisable documentation for the [Koha community] (http://koha-community.org).
 
 ## Status - as at 18 September 2014
 
@@ -19,7 +19,7 @@ Koha is the world's first free and open source library management system. In use
 
 The official documentation for Koha is created using DocBook and is managed by Nicole Engard.
 
-For more information visit the [Koha community] (koha-community.org).
+For more information visit the [Koha community] (http://koha-community.org).
 
 ## About DITA XML
 
