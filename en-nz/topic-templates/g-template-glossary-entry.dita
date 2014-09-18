@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--This file is part of Koha.
   Copyright (C) YEAR NAME or EMPLOYER NAME
-  Licensed under the GNU General Public License v3.0 or later.
-  Contributors:
-  Source of content:-->
-<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd" >
+  Licensed under the GNU General Public License v3.0 or later. -->
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
 <glossentry id="" xml:lang="en-nz">
   <glossterm>entry name</glossterm>
   <glossdef>entry definition</glossdef>
   <glossBody>
     <glossPartOfSpeech value="" />
     <glossUsage></glossUsage>
-    <glossSurfaceForm>full name and abbreviation for first appearance
-    </glossSurfaceForm>
+    <glossSurfaceForm>full name and abbreviation for first appearance</glossSurfaceForm>
     <glossAlt>
       <glossAbbreviation></glossAbbreviation>
       <glossAcronym></glossAcronym>

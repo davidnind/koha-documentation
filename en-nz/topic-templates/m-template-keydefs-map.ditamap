@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This file is part of Koha.
   Copyright (C) YEAR NAME or EMPLOYER NAME
-  Licensed under the GNU General Public License v3.0 or later.
-  Contributors:
-  Source of content: -->
+  Licensed under the GNU General Public License v3.0 or later. -->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map id="" xml:lang="en-nz">
+
   <title></title>
+
+  <topicmeta>
+    <author type="creator"></author>
+    <copyright>
+      <copyryear year="" />
+      <copyrholder></copyrholder>
+    </copyright>
+    <critdates>
+      <created date="" />
+      <revised modified="" />
+    </critdates>
+    <source href=""></source>
+  </topicmeta>
+
     <topicgroup>
       <keydef href=".dita"
               keys=""/>
     </topicgroup>
+
 </map>

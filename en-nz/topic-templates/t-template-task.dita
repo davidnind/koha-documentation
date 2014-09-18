@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This file is part of Koha.
   Copyright (C) YEAR NAME or EMPLOYER NAME
-  Licensed under the GNU General Public License v3.0 or later.
-  Contributors:
-  Source of content: -->
+  Licensed under the GNU General Public License v3.0 or later. -->
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="" xml:lang="en-nz">
   <title></title>
   <shortdesc></shortdesc>
   <prolog>
     <metadata>
+    <author type="creator"></author>
+    <author type="contributor"></author>
+    <copyright>
+      <copyryear year="" />
+      <copyrholder></copyrholder>
+    </copyright>
+    <critdates>
+      <created date="" />
+      <revised modified="" />
+    </critdates>
+    <source href=""></source>
       <keywords>
         <keyword></keyword>
         <indexterm></indexterm>

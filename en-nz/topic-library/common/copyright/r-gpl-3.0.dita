@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Source of content:
-  - Plain text version of the licence from http://www.gnu.org/licenses/gpl.html accessed on 2014-09-14 -->
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="r-gpl-3.0" xml:lang="en-us">
   <title>GNU General Public License</title>
@@ -9,6 +7,7 @@
       <copyryear year="2007" />
       <copyrholder>Free Software Foundation, Inc.</copyrholder>
     </copyright>
+    <source href="http://www.gnu.org/licenses/gpl.html">Plain text version of the licence -accessed on 2014-09-14</source>
     <metadata>
       <keywords>
         <indexterm>GNU General Public License v3.0</indexterm>
