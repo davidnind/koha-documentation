@@ -3,12 +3,13 @@
   Copyright (C) YEAR NAME or EMPLOYER NAME
   Licensed under the GNU General Public License v3.0 or later. -->
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="" xml:lang="en-nz">
+<reference id="replace-with-real-id" xml:lang="en-nz">
   <title></title>
   <shortdesc></shortdesc>
   <prolog>
     <author type="creator"></author>
     <author type="contributor"></author>
+    <source href=""></source>
     <copyright>
       <copyryear year="" />
       <copyrholder></copyrholder>
@@ -17,7 +18,6 @@
       <created date="" />
       <revised modified="" />
     </critdates>
-    <source href=""></source>
     <metadata>
       <keywords>
         <keyword></keyword>

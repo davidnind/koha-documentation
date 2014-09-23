@@ -3,13 +3,14 @@
   Copyright (C) YEAR NAME or EMPLOYER NAME
   Licensed under the GNU General Public License v3.0 or later. -->
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd" >
-<map id="" xml:lang="en-nz">
+<map id="replace-with-real-id" xml:lang="en-nz">
 
   <title></title>
 
   <!-- Information about the information product -->
   <topicmeta>
     <author type="creator"></author>
+    <source href=""></source>
     <copyright>
       <copyryear year="" />
       <copyrholder></copyrholder>
@@ -18,7 +19,6 @@
       <created date="" />
       <revised modified="" />
     </critdates>
-    <source href=""></source>
   </topicmeta>
 
   <!-- Included key definition maps -->

@@ -3,18 +3,33 @@
   Copyright (C) YEAR NAME or EMPLOYER NAME
   Licensed under the GNU General Public License v3.0 or later. -->
 <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary//EN" "glossary.dtd">
-<glossentry id="" xml:lang="en-nz">
+<glossentry id="replace-with-real-id" xml:lang="en-nz">
   <glossterm>entry name</glossterm>
   <glossdef>entry definition</glossdef>
+  <prolog>
+    <author type="creator"></author>
+    <author type="contributor"></author>
+    <source href=""></source>
+    <copyright>
+      <copyryear year="" />
+      <copyrholder></copyrholder>
+    </copyright>
+    <critdates>
+      <created date="" />
+      <revised modified="" />
+    </critdates>
+  </prolog>
   <glossBody>
     <glossPartOfSpeech value="" />
-    <glossUsage></glossUsage>
     <glossSurfaceForm>full name and abbreviation for first appearance</glossSurfaceForm>
+    <glossUsage></glossUsage>
     <glossAlt>
+    <!-- Choose one of:
       <glossAbbreviation></glossAbbreviation>
       <glossAcronym></glossAcronym>
-      <glossSynonym></glossSynonym>
-      <glossStatus></glossStatus>
+      <glossShortForm></glossShortForm>
+      <glossSynonym></glossSynonym> -->
+      <glossStatus value="" />
     </glossAlt>
   </glossBody>
 </glossentry>

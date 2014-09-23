@@ -3,13 +3,13 @@
   Copyright (C) YEAR NAME or EMPLOYER NAME
   Licensed under the GNU General Public License v3.0 or later. -->
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="" xml:lang="en-nz">
+<task id="replace-with-real-id" xml:lang="en-nz">
   <title></title>
   <shortdesc></shortdesc>
   <prolog>
-    <metadata>
     <author type="creator"></author>
     <author type="contributor"></author>
+    <source href=""></source>
     <copyright>
       <copyryear year="" />
       <copyrholder></copyrholder>
@@ -18,7 +18,7 @@
       <created date="" />
       <revised modified="" />
     </critdates>
-    <source href=""></source>
+    <metadata>
       <keywords>
         <keyword></keyword>
         <indexterm></indexterm>
