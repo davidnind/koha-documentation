@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is part of Koha.
+  Copyright (C) 2014 David Nind
+  Licensed under the GNU General Public License v3.0 or later.
+
+Instructions
+============
+
+Use this Ant build script template to create PDF and HTML outputs for a product using the default styles from the DITA Open Toolkit.
+
+The folder structure for the output is:
+  user home directory
+    output
+      product-name
+        print (PDF file)
+        web (HTML files)
+
+Pre-requisites: Install the latest version of the DITA Open Toolkit and make sure you can generate the PDF and HTML outputs for the sample project. See https://dita-ot.github.io/
+
+To use the template:
+1. Make a copy and rename it to product-name-build.ant, where 'product-name' is the same as the ditamap filename for the product.
+2. Replace 'rename-me' in product-name-build.ant with the product ditamap filename.
+3. Update the build.properties file with the location of your DITA Open Toolkit.
+3. Run the startcmd.sh (Linux and Mac) or startcmd.bat (Windows) file in your DITA Open Toolkit folder.
+4. Change to the folder where the build script is located.
+5. Run ant -f product-name-build.ant
+
+Source: Adapted from DITA for Practitioners - Volume 1 by Eliot Kimber, pages 137-140 -->
+
+<project name="rename-me" default="all" basedir=".">
+
+  <property file="build.properties" />
+  <property file="${user.home}${file.separator}.build.properties" />
+  <property file="${user.home}${file.separator}build.properties" />
+
+  <property name="dita-ot-dir" location="${user.home}${file.separator}DITA-OT" />
+
+  <property name="source.dir" location="${basedir}${file.separator}..${file.separator}" />
+
+  <property name="map.filename" value="rename-me" />
+
+  <property name="base.output.dir" location="${user.home}${file.separator}output"/>
+
+  <property name="output.dir.print" location="${base.output.dir}${file.separator}${map.filename}${file.separator}print"/>
+
+  <property name="output.dir.web" location="${base.output.dir}${file.separator}${map.filename}${file.separator}web"/>
+	
+  <target name="all" description="Build PDF and HTML output" depends="pdf, html" />
+
+  <target name="pdf" description="Build the PDF output">
+    <mkdir dir="${output.dir.print}" />
+    <ant antfile="${dita-ot-dir}${file.separator}build.xml" inheritAll="false">
+      <property name="transtype" value="pdf" />
+      <property name="args.input" location="${source.dir}${file.separator}${map.filename}.ditamap" />
+      <property name="output.dir" location="${output.dir.print}" />
+    </ant>
+  </target>
+
+  <target name="html" description="Build the HTML output">
+    <mkdir dir="${output.dir.web}" />
+    <ant antfile="${dita-ot-dir}${file.separator}build.xml" inheritAll="false">
+      <property name="transtype" value="xhtml" />
+      <property name="args.input" location="${source.dir}${file.separator}${map.filename}.ditamap" />
+      <property name="output.dir" location="${output.dir.web}" />
+      <property name="generate.copy.outer" value="3" />
+    </ant>
+  </target>
+
+  <target name="clean" description="Delete all the output files">
+    <delete dir="${base.output.dir}"></delete>
+  </target>
+
+</project>
